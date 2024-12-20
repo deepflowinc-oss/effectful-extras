@@ -7,10 +7,10 @@ cabal-version: 2.2
 name:           module-effectful
 version:        0.1.0.0
 synopsis:       A tiny layer for effectful to interact with environmental modules.
-description:    Please see the README on GitHub at <https://github.com/deepflowinc/module-effectful#readme>
+description:    Please see the README on GitHub at <https://github.com/deepflowinc-oss/module-effectful#readme>
 category:       Control, System, Shell
-homepage:       https://github.com/deepflowinc/effectful-extras#readme
-bug-reports:    https://github.com/deepflowinc/effectful-extras/issues
+homepage:       https://github.com/deepflowinc-oss/effectful-extras#readme
+bug-reports:    https://github.com/deepflowinc-oss/effectful-extras/issues
 author:         DeepFlow, Inc.
 maintainer:     DeepFlow, Inc.
 copyright:      2024 (c) DeepFlow, Inc.
@@ -28,7 +28,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/deepflowinc/effectful-extras
+  location: https://github.com/deepflowinc-oss/effectful-extras
   subdir: module-effectful
 
 library
