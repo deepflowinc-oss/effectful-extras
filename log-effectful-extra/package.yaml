@@ -1,6 +1,6 @@
 name:                log-effectful-extra
 version:             0.1.0.0
-github:              "deepflowinc/effectful-extras/log-effectful-extra"
+github:              "deepflowinc-oss/effectful-extras/log-effectful-extra"
 license:             BSD-3-Clause
 author:              "DeepFlow, Inc."
 maintainer:          "DeepFlow, Inc."
@@ -17,7 +17,7 @@ category:            System
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/deepflowinc/effectful-extras/tree/master/log-effectful-extra#readme>
+description:         Please see the README on GitHub at <https://github.com/deepflowinc-oss/effectful-extras/tree/master/log-effectful-extra#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -42,7 +42,7 @@ library:
   - bytestring
   - effectful-core
   - log-base
-  - log-effectful
+  - log-effectful < 1.0.1.0
   - path-tagged
   - safe-exceptions
   - semigroupoids
