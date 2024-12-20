@@ -44,7 +44,7 @@ library
     , effectful
     , effectful-core
     , log-base
-    , log-effectful
+    , log-effectful <1.0.1.0
     , path-tagged
     , safe-exceptions
     , semigroupoids
